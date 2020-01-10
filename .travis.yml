@@ -5,7 +5,7 @@ rvm:
         - 3.6
 install:
         - pip install python-coveralls
-        - pip install coverage
+        - pip install coverage==4.5.4
 script:
         - coverage run ./tests.py
 after_success:
